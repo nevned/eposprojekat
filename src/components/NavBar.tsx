@@ -5,7 +5,7 @@ import React from 'react'
 function NavBar() {
   return (
     <div className='navBar'>
-        <a href="">MyStore</a>
+        <a href="">ElabStore</a>
     </div>
   )
 }
