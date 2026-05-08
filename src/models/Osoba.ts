@@ -1,4 +1,4 @@
-export interface Osoba {
+export interface osoba {
     ime:string;
     prezime:string;
 

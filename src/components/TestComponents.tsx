@@ -1,12 +1,12 @@
 
-import type { Osoba } from "../models/Osoba";
+import type { osoba } from "../models/Osoba";
 // import { TestComponent} from 'components/TestComponents';
 // export function TestComponent(){}
 
 function TestComponent() {
 
     // const ime:string = "Aleksa";
-    const o1:Osoba = {
+    const o1:osoba = {
         ime:"Aleksa",
         prezime: "Markovic",
 

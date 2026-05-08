@@ -2,10 +2,15 @@
 //rafce
 import React from 'react'
 
-function NavBar() {
+interface NavBarProps{
+  cartNum:number;
+}
+
+function NavBar(props:NavBarProps) {
   return (
     <div className='navBar'>
         <a href="">ElabStore</a>
+        <p className="cart-num">{props.cartNum}</p>
     </div>
   )
 }
