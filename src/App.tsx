@@ -13,15 +13,11 @@ type ApiProduct = {
   id: number;
   title: string;
   description: string;
-  price: number;
   thumbnail: string;
 };
 
 type ProductsAPIResponse = {
   products: ApiProduct[];
-  total: number;
-  skip: number;
-  limit: number;
 };
 
 // const products: Product[] = [
