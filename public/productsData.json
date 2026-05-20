@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Proizvod 1",
+            "description": "Opis proizvoda 1",
+            "amount": 0
+        },
+        {
+            "id": 2,
+            "name": "Proizvod 2",
+            "description": "Opis proizvoda 2",
+            "amount": 0
+        },
+        {
+            "id": 3,
+            "name": "Proizvod 3",
+            "description": "Opis proizvoda 3",
+            "amount": 0
+        },
+        {
+            "id": 4,
+            "name": "Proizvod 4",
+            "description": "Opis proizvoda 4",
+            "amount": 0
+        }
+    ]
+}
