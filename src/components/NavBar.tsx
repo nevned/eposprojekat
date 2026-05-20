@@ -1,6 +1,4 @@
-//rfce
-//rafce
-import React from "react";
+
 import { Link, Outlet } from "react-router-dom";
 
 interface NavBarProps {
