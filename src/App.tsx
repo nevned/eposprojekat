@@ -26,6 +26,9 @@ function App() {
   const [cartProducts, setCartProducts] = useState<Product[]>([]);
 
   
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+  const imageUrl = `${apiBaseUrl}/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80`;
+
   const productApiUrl = import.meta.env.VITE_PRODUCTS_API_URL;
   const { data, loading, error } = useFetch<ProductsAPIResponse>(productApiUrl);
 
@@ -75,6 +78,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+      <img src={imageUrl} alt="IT kurs" style={{width: '100%',maxHeight: '350px',objectFit:'cover'}}/>
         <Routes>
           <Route element={<NavBar cartNum={cartNum} />}>
             <Route
