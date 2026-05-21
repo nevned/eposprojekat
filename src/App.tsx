@@ -60,7 +60,7 @@ function App() {
       }
     });
   }
-
+   greska
   const addToCart = (id: number) => {
     console.log(`Dodat proizvod ${id} u korpu!`);
     products.map((product) => {
